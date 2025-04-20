@@ -1,0 +1,86 @@
+.hero{
+    background: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwzNjk5MTN8MHwxfGFsbHwxfHx8fHx8fHwxNjYxNjEyODg2&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&h=750&q=80) no-repeat center center/cover;
+    height: 100vh;
+    color: aqua;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+
+}
+.hero .container {
+    background: rgba(255, 255, 255, 0.1); /* transparan putih */
+    backdrop-filter: blur(10px); /* blur latar belakang */
+    -webkit-backdrop-filter: blur(10px); /* dukungan Safari */
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 2rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    color: white;
+    max-width: 600px;
+    text-align: center;
+}
+
+.hero h1 span{
+    color: rgb(35, 179, 179);
+}
+
+.subtitle {
+    font-size: 3rem;
+    margin-bottom: 20px;
+
+}
+
+.about{
+    padding: 100px 0;
+    background-color: grey;
+}
+
+.about-content{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.about-content img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px;
+}
+.about-content text{
+    flex: 1;
+}
+
+.about-content h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.skills{
+    padding: 80px;
+    background-color: aquamarine;
+}
+.skills-grid{
+    text-align: center;
+    display: flex;
+
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 5fr));
+    gap: 5rem;
+    text-align: center;
+  }
+  
+  .skills img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+  }
+  
+  
